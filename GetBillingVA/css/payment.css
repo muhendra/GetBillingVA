@@ -1,0 +1,137 @@
+body{
+	padding-top: 110px !important;
+}
+
+.total-value-big{
+	color: #404448;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.transaction{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+.transaction-name{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+.transaction-details-box{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	border-right: 1px solid #eeeeee;
+	background-color: #ffffff;
+}
+
+.total{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	border: 1px solid #eeeeee;
+	background-color: #ffffff;
+}
+
+.methods{
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+.payment-option {
+	display: block;
+	position: relative;
+	width: 100%;
+	padding-top: 15px;
+	padding-left: 90px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	border: 2px solid #eeeeee;
+	background-color: #ffffff;
+	color: #404448;
+	font-weight: 700;
+	text-align: left;
+}
+
+.payment-option:active,
+.payment-option:focus,
+.payment-option:hover{
+	color: #404448;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+.payment-accordion:after,
+.payment-link:after{
+	position: absolute;
+	right: 20px;
+	font-family: FontAwesome;
+}
+
+.payment-accordion:after{
+	content: '\f107';
+}
+
+.payment-option{
+	background-position: 15px center;
+	background-repeat: no-repeat;
+	background-size: 60px 24px;
+}
+
+.payment-link:after{
+	content: '\f105';
+}
+
+.accordion-box-wrap{
+	border: 2px solid #eeeeee;
+	border-top: none;
+}
+
+.accordion-box{
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	overflow: hidden;
+}
+
+.accordion-box-image-wrap,
+.accordion-box-text{
+	display: inline-block;
+}
+
+.accordion-box-image-wrap{
+	margin-right: 30px;
+}
+
+ol {
+	padding: 15px;
+}
+
+ol li {
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+	ol {
+		padding: 15px;
+	}
+}
